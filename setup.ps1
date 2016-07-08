@@ -1,5 +1,5 @@
-#Set-ExecutionPolicy RemoteSigned
-#iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy RemoteSigned
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install vcbuildtools -y
 choco install python -version 2.7.2 -y
