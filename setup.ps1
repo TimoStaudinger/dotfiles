@@ -19,6 +19,10 @@ choco install greenshot -y
 choco install googledrive -y
 choco install spotify -y
 
+
 refreshenv
+
+git config --global user.email "staudinger.timo@gmail.com"
+git config --global user.name "Timo M. Staudinger"
 
 npm install -g react-native
