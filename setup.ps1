@@ -18,6 +18,7 @@ choco install gimp -y
 choco install greenshot -y
 choco install googledrive -y
 choco install spotify -y
+choco install intellijidea-ultimate -y
 
 refreshenv
 
