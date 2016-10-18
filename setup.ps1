@@ -25,4 +25,7 @@ refreshenv
 git config --global user.email "staudinger.timo@gmail.com"
 git config --global user.name "Timo Staudinger"
 
+npm install -g yarn
+npm install -g gulp
+npm install -g grunt
 npm install -g react-native
