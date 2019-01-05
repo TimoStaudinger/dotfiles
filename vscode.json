@@ -1,6 +1,6 @@
 {
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Subliminal",
+  "workbench.colorTheme": "Nord",
   "editor.fontFamily": "'Dank Mono', 'Operator Mono Light', Consolas, 'Courier New', monospace",
   "editor.fontSize": 12,
   "editor.fontLigatures": true,
@@ -31,10 +31,6 @@
   "window.menuBarVisibility": "toggle",
   "javascript.validate.enable": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.parameterHints": false,
   "editor.quickSuggestions": false,
-  "vscode_custom_css.imports": [
-    "file://C:/vscode_custom.css"
-  ],
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true
 }
