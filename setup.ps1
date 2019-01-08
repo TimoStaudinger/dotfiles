@@ -5,38 +5,44 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 refreshenv
 
 # Install Applications
-choco install vcbuildtools
-choco install python -version 2.x
-choco install jdk8
-choco install vscode
-choco install notepadplusplus
-choco install googlechrome
-choco install nvm
-# choco install skype
-choco install git
-choco install adobereader
-choco install 7zip
-choco install vlc
-# choco install dropbox
-choco install gimp
-choco install inkscape
-choco install greenshot
-# choco install googledrive
-# choco install spotify
-choco install dashlane
-# choco install nordvpn
-choco install hyper
+choco install python2 -y
+choco install vscode -y
+choco install notepadplusplus -y
+choco install googlechrome -y
+choco install nvm -y
+choco install git -y
+choco install adobereader -y
+choco install 7zip -y
+choco install vlc -y
+choco install gimp -y
+choco install inkscape -y
+choco install greenshot -y
+choco install dashlane -y
+choco install hyper -y
+# choco install jdk8 -y
+# choco install googledrive -y
+# choco install dropbox -y
+# choco install nordvpn -y
 
 refreshenv
 
 # Set global Git config
-git config --global user.email "staudinger.timo@gmail.com"
+# TODO: Maintain email address
+git config --global user.email "foo@bar.com"
 git config --global user.name "Timo Staudinger"
+New-Item C:\git -type directory
+
+# Set up Node.js
+# nvm proxy ip:port
+nvm install 8.15.0
+nvm use 8.15.0
 
 # Install global npm packages
 npm install -g yarn
+npm install -g windows-build-tools
 
 # Install VS Code Extensions
+# TODO: Set VS Code proxy config
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension dbaeumer.vscode-eslint
@@ -49,3 +55,8 @@ code --install-extension pnp.polacode
 code --install-extension rafamel.subtle-brackets
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
+
+# TODO: Install Microsoft store apps:
+# - Spotify
+# - Slack
+# - Skype
