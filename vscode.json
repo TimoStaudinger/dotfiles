@@ -32,5 +32,10 @@
   "javascript.validate.enable": false,
   "editor.suggestOnTriggerCharacters": false,
   "editor.quickSuggestions": false,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "liveshare.connectionMode": "direct",
+  "liveshare.features": "experimental",
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "npm-intellisense.importLinebreak": ""
 }
