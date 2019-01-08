@@ -1,30 +1,29 @@
-function Read-Config() {
-  Get-Content "config.ini" | foreach-object -begin {$h=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $h.Add($k[0], $k[1]) } }
-  return $h
-}
-$config = Read-Config
-
 Set-ExecutionPolicy RemoteSigned
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install vcbuildtools -y
-choco install python -version 2.7.2 -y
-choco install jdk8 -y
-choco install atom -y
-choco install notepadplusplus -y
-choco install googlechrome -y
-choco install nodist -y
-choco install skype -y
-choco install git -y
-choco install adobereader -y
-choco install 7zip -y
-choco install vlc -y
-choco install dropbox -y
-choco install gimp -y
-choco install greenshot -y
-choco install googledrive -y
-choco install spotify -y
-choco install intellijidea-ultimate -y
+refreshenv
+
+choco install vcbuildtools
+choco install python -version 2.x
+choco install jdk8
+choco install vscode
+choco install notepadplusplus
+choco install googlechrome
+choco install nvm
+# choco install skype
+choco install git
+choco install adobereader
+choco install 7zip
+choco install vlc
+# choco install dropbox
+choco install gimp
+choco install inkscape
+choco install greenshot
+# choco install googledrive
+# choco install spotify
+choco install dashlane
+# choco install nordvpn
+choco install hyper
 
 refreshenv
 
@@ -32,6 +31,3 @@ git config --global user.email "staudinger.timo@gmail.com"
 git config --global user.name "Timo Staudinger"
 
 npm install -g yarn
-npm install -g gulp
-npm install -g grunt
-npm install -g react-native
