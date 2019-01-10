@@ -16,13 +16,11 @@ choco install 7zip -y
 choco install vlc -y
 choco install gimp -y
 choco install inkscape -y
-choco install greenshot -y
+choco install sharex -y
 choco install dashlane -y
 choco install hyper -y
-# choco install jdk8 -y
-# choco install googledrive -y
-# choco install dropbox -y
-# choco install nordvpn -y
+choco install googledrive -y
+choco install nordvpn -y
 
 refreshenv
 
