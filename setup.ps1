@@ -42,6 +42,10 @@ refreshenv
 # Install global npm packages
 npm install -g yarn
 
+# Install Python packages
+pip install --upgrade pip setuptools
+pip install --upgrade httpie
+
 # Install VS Code Extensions
 # TODO: Set VS Code proxy config
 code --install-extension arcticicestudio.nord-visual-studio-code
