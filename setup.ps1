@@ -5,6 +5,7 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 refreshenv
 
 # Install Applications
+choco install vcbuildtools -y
 choco install python2 -y
 choco install vscode -y
 choco install notepadplusplus -y
@@ -35,9 +36,10 @@ New-Item C:\git -type directory
 nvm install 8.15.0
 nvm use 8.15.0
 
+refreshenv
+
 # Install global npm packages
 npm install -g yarn
-npm install -g windows-build-tools
 
 # Install VS Code Extensions
 # TODO: Set VS Code proxy config
