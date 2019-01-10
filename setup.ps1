@@ -22,6 +22,7 @@ choco install dashlane -y
 choco install hyper -y
 choco install googledrive -y
 choco install nordvpn -y
+choco install now -y
 
 refreshenv
 
