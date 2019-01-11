@@ -58,8 +58,9 @@ zstyle ':completion:*' list-colors "ow=01;36;40"
 autoload -Uz compinit
 compinit
 
-export DEFAULT_USER="___USERNAME___"
+ZSH_THEME="agnoster"
 
+export DEFAULT_USER="___USERNAME___"
 export EDITOR="nano"
 
 export NVM_DIR="$HOME/.nvm"
