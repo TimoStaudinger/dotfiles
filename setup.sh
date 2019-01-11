@@ -26,6 +26,9 @@ sudo apt-get -y install git
 git config --global user.email "email@domain.com"
 git config --global user.name "Timo Staudinger"
 git config --global core.autocrlf input
+git config --global core.editor nano
+# git config --global http.proxy http://ip:port
+# git config --global https.proxy http://ip:port
 
 
 # Install and set up zsh
