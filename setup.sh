@@ -56,11 +56,9 @@ compinit
 plugins=( [plugins...] zsh-syntax-highlighting zsh-autosuggestions)
 END
 
-source ~/.zshrc
-
 
 # Install and set up nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | sudo bash
 
-source ~/.bashrc
+source ~/.zshrc
 
