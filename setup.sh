@@ -45,17 +45,35 @@ END
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/algotech/dotaliases.git ~/.aliases
 
 tee -a ~/.zshrc << END
 
-LS_COLORS="ow=01;36;40" && export LS_COLORS
+plugins=(
+  git zsh-syntax-highlighting zsh-autosuggestions
+)
 
-zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+LS_COLORS="ow=01;36;40" && export LS_COLORS
+zstyle ':completion:*' list-colors "ow=01;36;40"
 autoload -Uz compinit
 compinit
 
-plugins=( [plugins...] zsh-syntax-highlighting zsh-autosuggestions)
+export DEFAULT_USER="___USERNAME___"
+
+export EDITOR="nano"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+source ~/.aliases/bash_aliases
+
+export PATH="$PATH:$(yarn global bin)"
+
+cd /mnt/c/git
 END
+
+source ~/.zshrc
 
 
 # Install and set up nvm
