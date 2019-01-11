@@ -6,7 +6,7 @@ refreshenv
 
 # Install Applications
 choco install vcbuildtools -y
-choco install jdk8 -y
+choco install openjdk -y
 choco install python2 -y
 choco install vscode -y
 choco install notepadplusplus -y
