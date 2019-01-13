@@ -62,6 +62,9 @@ code --install-extension rafamel.subtle-brackets
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
 
+# Activate Windows Subsystem for Linux
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
 # TODO: Install Microsoft store apps:
 # - Spotify
 # - Slack
