@@ -33,6 +33,12 @@ git config --global user.email "foo@bar.com"
 git config --global user.name "Timo Staudinger"
 New-Item C:\git -type directory
 
+# TODO: Copy ShareX config
+# TODO: Set ShareX proxy
+# TODO: Copy yarn & npm config
+# TODO: Copy Hyper config
+# TODO: Copy VS Code config
+
 # Set up Node.js
 # nvm proxy ip:port
 nvm install 8.15.0
