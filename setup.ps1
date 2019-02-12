@@ -25,6 +25,7 @@ choco install terminus -y
 choco install googledrive -y
 choco install nordvpn -y
 choco install now -y
+choco install screentogif -y
 
 refreshenv
 
