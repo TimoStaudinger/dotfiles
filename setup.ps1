@@ -18,7 +18,7 @@ choco install 7zip -y
 choco install vlc -y
 choco install gimp -y
 choco install inkscape -y
-choco install sharex -y
+choco install lightshot -y
 choco install dashlane -y
 choco install hyper -y
 choco install terminus -y
