@@ -12,6 +12,7 @@ choco install vscode -y
 choco install notepadplusplus -y
 choco install googlechrome -y
 choco install nvm -y
+choco install yarn -y
 choco install git -y
 choco install adobereader -y
 choco install 7zip -y
@@ -25,6 +26,7 @@ choco install googledrive -y
 choco install nordvpn -y
 choco install now -y
 choco install screentogif -y
+choco install dbeaver -y
 
 refreshenv
 
@@ -44,9 +46,6 @@ nvm install 8.15.0
 nvm use 8.15.0
 
 refreshenv
-
-# Install global npm packages
-npm install -g yarn
 
 # Install Python packages
 pip install --upgrade pip setuptools
