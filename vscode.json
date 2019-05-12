@@ -34,7 +34,6 @@
   "editor.quickSuggestions": false,
   "editor.formatOnSave": true,
   "liveshare.connectionMode": "direct",
-  "liveshare.features": "experimental",
   "workbench.startupEditor": "newUntitledFile",
   "javascript.updateImportsOnFileMove.enabled": "never",
   "npm-intellisense.importLinebreak": ""
