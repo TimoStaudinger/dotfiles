@@ -21,6 +21,7 @@ sudo apt-get -y upgrade
 
 sudo apt-get -y install htop
 sudo apt-get -y install git
+sudo apt-get -y install nodejs
 
 
 # Configure git
