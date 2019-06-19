@@ -56,14 +56,17 @@ pip install --upgrade httpie
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
-code --install-extension ms-vscode.PowerShell
+code --install-extension mariusschulz.yarn-lock-syntax
+code --install-extension mechatroner.rainbow-csv
+code --install-extension mikestead.dotenv
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension naumovs.color-highlight
-code --install-extension pnp.polacode
 code --install-extension rafamel.subtle-brackets
-code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension shinnn.stylelint
+code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
 
 # Activate Windows Subsystem for Linux
