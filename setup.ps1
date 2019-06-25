@@ -11,6 +11,7 @@ choco install python2 -y
 choco install vscode -y
 choco install notepadplusplus -y
 choco install googlechrome -y
+choco install firefox -y
 choco install nvm -y
 choco install yarn -y
 choco install git -y
