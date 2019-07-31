@@ -28,6 +28,7 @@ choco install nordvpn -y
 choco install now -y
 choco install screentogif -y
 choco install dbeaver -y
+choco install microsoft-windows-terminal -y
 
 refreshenv
 
