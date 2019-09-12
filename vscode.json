@@ -1,5 +1,6 @@
 {
   "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": false,
   "editor.folding": false,
   "editor.fontFamily": "'Dank Mono', 'Operator Mono Light', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -17,13 +18,14 @@
   "editor.quickSuggestions": true,
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "none",
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.suggestOnTriggerCharacters": false,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "eslint.alwaysShowStatus": true,
   "eslint.packageManager": "yarn",
-  "eslint.provideLintTask": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -35,10 +37,16 @@
   "explorer.openEditors.visible": 0,
   "extensions.ignoreRecommendations": false,
   "files.autoSave": "off",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
   "javascript.updateImportsOnFileMove.enabled": "never",
   "javascript.validate.enable": false,
   "npm-intellisense.importLinebreak": "\r\n",
-  "prettier.requireConfig": true,
+  "prettier.requireConfig": false,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontSize": 10,
   "terminal.integrated.scrollback": 10000,
@@ -49,7 +57,6 @@
   "workbench.editor.showIcons": false,
   "workbench.colorTheme": "Nord",
   "workbench.iconTheme": null,
-  "workbench.statusBar.feedback.visible": false,
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "window.zoomLevel": 1,
@@ -57,6 +64,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
