@@ -12,6 +12,7 @@ choco install vscode -y
 choco install notepadplusplus -y
 choco install googlechrome -y
 choco install firefox -y
+choco install brave -y
 choco install nvm -y
 choco install yarn -y
 choco install git -y
