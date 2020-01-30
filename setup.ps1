@@ -32,6 +32,7 @@ choco install dbeaver -y
 choco install microsoft-windows-terminal -y
 choco install poshgit -y
 choco install visioviewer -y
+choco install camunda-modeler -y
 
 refreshenv
 
