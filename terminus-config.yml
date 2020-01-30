@@ -1,0 +1,149 @@
+hotkeys:
+  shell: {}
+  toggle-fullscreen:
+    - - Ctrl-Enter
+  toggle-window: []
+  profile: {}
+  close-pane:
+    - - Alt-Shift-W
+  split-right:
+    - - Ctrl-Shift-Right
+  split-bottom:
+    - - Ctrl-Shift-Down
+  split-left:
+    - - Ctrl-Shift-Left
+  split-top:
+    - - Ctrl-Shift-Up
+  pane-nav-up:
+    - - Alt-ArrowUp
+  pane-nav-down:
+    - - Alt-ArrowDown
+  pane-nav-left:
+    - - Alt-ArrowLeft
+  pane-nav-right:
+    - - Alt-ArrowRight
+  next-tab:
+    - - Ctrl-Tab
+  previous-tab:
+    - - Ctrl-Shift-Tab
+ssh:
+  connections:
+    - name: 'ny-vm-23 '
+      host: ny-vm-23
+      port: 22
+      user: jboss-as
+      algorithms:
+        hmac:
+          - hmac-sha2-256
+          - hmac-sha2-512
+          - hmac-sha1
+        kex:
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha1
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ssh-rsa
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+      group: Voya
+      scripts: []
+      privateKey: ''
+    - name: ny-vm-25
+      group: Anthem
+      host: ny-vm-25
+      port: 22
+      user: liberty
+      algorithms:
+        hmac:
+          - hmac-sha2-256
+          - hmac-sha2-512
+          - hmac-sha1
+        kex:
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha1
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ssh-ed25519
+          - ssh-rsa
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+      scripts: []
+terminal:
+  colorScheme: &ref_0
+    name: Nord
+    foreground: '#D8DEE9'
+    background: '#2E3440'
+    cursor: '#'
+    colors:
+      - '#3B4252'
+      - '#BF616A'
+      - '#A3BE8C'
+      - '#EBCB8B'
+      - '#81A1C1'
+      - '#B48EAD'
+      - '#88C0D0'
+      - '#E5E9F0'
+      - '#4C566A'
+      - '#BF616A'
+      - '#A3BE8C'
+      - '#EBCB8B'
+      - '#81A1C1'
+      - '#B48EAD'
+      - '#8FBCBB'
+      - '#ECEFF4'
+  autoOpen: true
+  environment: {}
+  shell: powershell
+  workingDirectory: 'C:\git'
+  font: Dank Mono
+  frontend: xterm-webgl
+  ligatures: true
+  background: colorScheme
+  cursor: block
+  rightClick: paste
+  bell: visual
+  customColorSchemes:
+    - *ref_0
+  fontSize: 13
+  copyOnSelect: true
+  profile: powershell
+appearance:
+  theme: Standard
+  vibrancy: true
+  vibrancyType: fluent
+  opacity: 0.99
+  frame: thin
+  dock: 'off'
+  dockFill: 1
+  tabsLocation: top
+  css: '/* * { color: blue !important; } */'
+enableAnalytics: false
+titleControl:
+  replacePattern: \cmd
+  removePattern: 'Administrator:'
+enableWelcomeTab: false
+pluginBlacklist:
+  - shell-selector
+enableAutomaticUpdates: true
