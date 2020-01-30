@@ -6,12 +6,10 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.formatOnSave": true,
-  "editor.hideCursorInOverviewRuler": true,
   "editor.lineHeight": 20,
   "editor.lineNumbers": "off",
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
-  "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.occurrencesHighlight": true,
   "editor.overviewRulerBorder": false,
@@ -46,7 +44,7 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "javascript.validate.enable": false,
   "npm-intellisense.importLinebreak": "\r\n",
-  "prettier.requireConfig": false,
+  "prettier.requireConfig": true,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontSize": 10,
   "terminal.integrated.scrollback": 10000,
@@ -68,5 +66,9 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "task.slowProviderWarning": [
+    "npm"
+  ]
 }
