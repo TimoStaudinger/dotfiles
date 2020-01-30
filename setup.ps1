@@ -1,3 +1,8 @@
+# Set Windows ENVs
+# - HTTP_PROXY
+# - HTTPS_PROXY
+# - NO_PROXY
+
 # Set up Chocolatey for package management
 Set-ExecutionPolicy RemoteSigned
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
