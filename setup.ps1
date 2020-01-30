@@ -89,3 +89,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 # - Spotify
 # - Slack
 # - Skype
+
+# Set up PowerShell
+# - Clone psaliases
+# - Copy profile
