@@ -58,7 +58,7 @@ pip install --upgrade pip setuptools
 pip install --upgrade httpie
 
 # Install VS Code Extensions
-# TODO: Set VS Code proxy config
+# - Set VS Code proxy config
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension dbaeumer.vscode-eslint
@@ -67,13 +67,15 @@ code --install-extension mariusschulz.yarn-lock-syntax
 code --install-extension mechatroner.rainbow-csv
 code --install-extension mikestead.dotenv
 code --install-extension ms-vscode.powershell
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension naumovs.color-highlight
 code --install-extension rafamel.subtle-brackets
 code --install-extension shinnn.stylelint
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension sohibe.java-generate-setters-getters
+code --install-extension vscjava.vscode-java-pack
+code --install-extension adpyke.vscode-sql-formatter
+code --install-extension redhat.vscode-xml
 
 # Activate Windows Subsystem for Linux
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
