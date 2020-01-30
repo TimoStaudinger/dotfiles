@@ -37,17 +37,17 @@ choco install camunda-modeler -y
 refreshenv
 
 # Set global Git config
-# TODO: Maintain email address
+# - Copy .gitconfig to ~/
+# - Maintain email address
 git config --global user.email "foo@bar.com"
 git config --global user.name "Timo Staudinger"
 New-Item C:\git -type directory
 
 # TODO: Copy yarn & npm config
-# TODO: Copy Hyper config
 # TODO: Copy VS Code config
 
 # Set up Node.js
-# nvm proxy ip:port
+# - Configure proxy: nvm proxy ip:port
 nvm install 8.15.0
 nvm use 8.15.0
 
