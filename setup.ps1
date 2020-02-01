@@ -9,35 +9,39 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 
 refreshenv
 
-# Install Applications
+# Install applications (general)
+choco install terminus -y
+choco install googlechrome -y
+choco install firefox -y
+choco install brave -y
+choco install adobereader -y
+choco install 7zip -y
+choco install vlc -y
+choco install dashlane -y
+choco install lightshot -y
+choco install screentogif -y
+
+# Install applications (work)
 choco install vcbuildtools -y
 choco install javaruntime -y
 choco install python2 -y
 choco install vscode -y
 choco install notepadplusplus -y
-choco install googlechrome -y
-choco install firefox -y
-choco install brave -y
 choco install nvm -y
 choco install yarn -y
 choco install git -y
-choco install adobereader -y
-choco install 7zip -y
-choco install vlc -y
+choco install poshgit -y
+choco install now -y
 choco install gimp -y
 choco install inkscape -y
-choco install lightshot -y
-choco install dashlane -y
-choco install terminus -y
-choco install googledrive -y
-choco install nordvpn -y
-choco install now -y
-choco install screentogif -y
-choco install dbeaver -y
-choco install microsoft-windows-terminal -y
-choco install poshgit -y
 choco install visioviewer -y
 choco install camunda-modeler -y
+choco install microsoft-windows-terminal -y
+choco install dbeaver -y
+
+# Install applications (personal)
+choco install googledrive -y
+choco install nordvpn -y
 
 refreshenv
 
