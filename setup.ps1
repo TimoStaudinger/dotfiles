@@ -20,6 +20,8 @@ choco install vlc -y
 choco install dashlane -y
 choco install lightshot -y
 choco install screentogif -y
+choco install slack -y
+choco install spotify -y
 
 # Install applications (work)
 choco install vcbuildtools -y
@@ -42,6 +44,15 @@ choco install dbeaver -y
 # Install applications (personal)
 choco install googledrive -y
 choco install nordvpn -y
+
+# Install non chocolatey apps
+# - Skype
+# - Steam
+# - Epic Store
+# - Uplay
+
+# Install Microsoft store apps:
+# - Skype
 
 refreshenv
 
@@ -88,11 +99,6 @@ code --install-extension redhat.vscode-xml
 
 # Activate Windows Subsystem for Linux
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-
-# TODO: Install Microsoft store apps:
-# - Spotify
-# - Slack
-# - Skype
 
 # Set up PowerShell
 # - Clone psaliases
