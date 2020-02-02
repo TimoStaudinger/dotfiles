@@ -26,6 +26,7 @@ choco install spotify -y
 # Install applications (work)
 choco install vcbuildtools -y
 choco install javaruntime -y
+choco install openjdk -y
 choco install python2 -y
 choco install vscode -y
 choco install notepadplusplus -y
