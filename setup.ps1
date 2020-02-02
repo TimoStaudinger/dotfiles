@@ -40,6 +40,7 @@ choco install visioviewer -y
 choco install camunda-modeler -y
 choco install microsoft-windows-terminal -y
 choco install dbeaver -y
+choco install dotnetcore-sdk -y
 
 # Install applications (personal)
 choco install googledrive -y
