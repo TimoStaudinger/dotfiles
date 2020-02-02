@@ -55,6 +55,9 @@ choco install nordvpn -y
 # Install Microsoft store apps:
 # - Skype
 
+# Install fonts
+# - Dank Mono (https://dank.sh/releases/)
+
 refreshenv
 
 # Set global Git config
