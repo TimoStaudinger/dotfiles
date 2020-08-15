@@ -48,6 +48,7 @@ choco install googledrive -y
 choco install nordvpn -y
 choco install uplay -y
 choco install steam -y
+choco install geforce-experience -y
 
 # Install non chocolatey apps
 # - Epic Store
