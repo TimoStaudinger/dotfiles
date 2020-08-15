@@ -47,12 +47,10 @@ choco install dotnetcore-sdk -y
 choco install googledrive -y
 choco install nordvpn -y
 choco install uplay -y
+choco install steam -y
 
 # Install non chocolatey apps
-# - Skype
-# - Steam
 # - Epic Store
-# - Uplay
 
 # Install Microsoft store apps:
 # - Skype
