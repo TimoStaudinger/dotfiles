@@ -17,7 +17,7 @@ choco install brave -y
 choco install adobereader -y
 choco install 7zip -y
 choco install vlc -y
-choco install dashlane -y
+choco install 1password-y
 choco install lightshot -y
 choco install screentogif -y
 choco install slack -y
