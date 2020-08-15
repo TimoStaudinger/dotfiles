@@ -46,6 +46,7 @@ choco install dotnetcore-sdk -y
 # Install applications (personal)
 choco install googledrive -y
 choco install nordvpn -y
+choco install uplay -y
 
 # Install non chocolatey apps
 # - Skype
