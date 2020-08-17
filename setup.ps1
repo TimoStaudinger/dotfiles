@@ -51,6 +51,9 @@ choco install uplay -y
 choco install epicgameslauncher -y
 choco install geforce-experience -y
 
+# Install non-Chocolatey software
+# - Adobe Creative Cloud
+
 # Install fonts
 # - Dank Mono (https://dank.sh/releases/)
 
