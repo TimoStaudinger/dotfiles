@@ -46,15 +46,10 @@ choco install dotnetcore-sdk -y
 # Install applications (personal)
 choco install googledrive -y
 choco install nordvpn -y
-choco install uplay -y
 choco install steam -y
+choco install uplay -y
+choco install epicgameslauncher -y
 choco install geforce-experience -y
-
-# Install non chocolatey apps
-# - Epic Store
-
-# Install Microsoft store apps:
-# - Skype
 
 # Install fonts
 # - Dank Mono (https://dank.sh/releases/)
