@@ -10,7 +10,6 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 refreshenv
 
 # Install applications (general)
-choco install terminus -y
 choco install googlechrome -y
 choco install firefox -y
 choco install brave -y
@@ -23,7 +22,7 @@ choco install screentogif -y
 choco install slack -y
 choco install spotify -y
 
-# Install applications (work)
+# Install applications (development)
 choco install vcbuildtools -y
 choco install javaruntime -y
 choco install openjdk -y
@@ -42,7 +41,7 @@ choco install microsoft-windows-terminal -y
 choco install dbeaver -y
 choco install dotnetcore-sdk -y
 
-# Install applications (personal)
+# Install applications (others)
 choco install googledrive -y
 choco install nordvpn -y
 choco install discord -y
