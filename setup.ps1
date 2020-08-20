@@ -79,23 +79,24 @@ pip install --upgrade httpie
 
 # Install VS Code Extensions
 # - Set VS Code proxy config
+code --install-extension apollographql.vscode-apollo
+code --install-extension naumovs.color-highlight
+code --install-extension mikestead.dotenv
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension vscjava.vscode-java-pack
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension christian-kohler.npm-intellisense
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension esbenp.prettier-vscode
-code --install-extension mariusschulz.yarn-lock-syntax
-code --install-extension mechatroner.rainbow-csv
-code --install-extension mikestead.dotenv
+code --install-extension cev.overnight
 code --install-extension ms-vscode.powershell
-code --install-extension naumovs.color-highlight
-code --install-extension rafamel.subtle-brackets
-code --install-extension shinnn.stylelint
-code --install-extension visualstudioexptteam.vscodeintellicode
-code --install-extension wayou.vscode-todo-highlight
-code --install-extension sohibe.java-generate-setters-getters
-code --install-extension vscjava.vscode-java-pack
+code --install-extension esbenp.prettier-vscode
+code --install-extension mechatroner.rainbow-csv
 code --install-extension adpyke.vscode-sql-formatter
+code --install-extension rafamel.subtle-brackets
+code --install-extension mariusschulz.yarn-lock-syntax
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension redhat.vscode-xml
+code --install-extension redhat.vscode-yaml
 
 # Activate Windows Subsystem for Linux
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
