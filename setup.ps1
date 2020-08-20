@@ -32,7 +32,6 @@ choco install nvm -y
 choco install yarn -y
 choco install git -y
 choco install poshgit -y
-choco install now -y
 choco install inkscape -y
 choco install visioviewer -y
 choco install camunda-modeler -y
