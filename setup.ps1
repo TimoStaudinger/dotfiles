@@ -35,7 +35,6 @@ choco install yarn -y
 choco install git -y
 choco install poshgit -y
 choco install now -y
-choco install gimp -y
 choco install inkscape -y
 choco install visioviewer -y
 choco install camunda-modeler -y
@@ -46,6 +45,7 @@ choco install dotnetcore-sdk -y
 # Install applications (personal)
 choco install googledrive -y
 choco install nordvpn -y
+choco install discord -y
 choco install steam -y
 choco install uplay -y
 choco install epicgameslauncher -y
