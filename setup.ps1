@@ -40,7 +40,7 @@ choco install dbeaver -y
 choco install dotnetcore-sdk -y
 
 # Install applications (others)
-choco install googledrive -y
+choco install google-backup-and-sync -y
 choco install nordvpn -y
 choco install discord -y
 choco install steam -y
