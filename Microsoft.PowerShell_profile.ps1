@@ -1,5 +1,5 @@
 # A directory containing all alias files that should be loaded
-$aliasesDir = "C:\psaliases"
+$aliasesDir = "C:\psaliases\dist"
 
 # Load all .ps1 files located in $aliasesDir
 Get-ChildItem "${aliasesDir}\*.ps1" | % {.$_}
