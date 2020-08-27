@@ -83,6 +83,8 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 # Reboot
 wsl --set-default-version 2
+# If setting the wsl version to 2 fails, install the wsl2 kernel by hand, and retry:
+# https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
 # Install Ubuntu from Windows Store
 
 # Set up PowerShell
