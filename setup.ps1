@@ -64,12 +64,11 @@ git config --global user.name "Timo Staudinger"
 New-Item C:\git -type directory
 
 # TODO: Copy yarn & npm config
-# TODO: Copy VS Code config
 
 # Set up Node.js
 # - Configure proxy: nvm proxy ip:port
-nvm install 8.15.0
-nvm use 8.15.0
+nvm install 12.18.3
+nvm use 12.18.3
 
 refreshenv
 
