@@ -79,7 +79,11 @@ pip install --upgrade httpie
 # Enable VS Code settings sync
 
 # Activate Windows Subsystem for Linux
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+# Reboot
+wsl --set-default-version 2
+# Install Ubuntu from Windows Store
 
 # Set up PowerShell
 # - Clone psaliases
