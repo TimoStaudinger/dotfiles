@@ -43,6 +43,7 @@ choco install discord -y
 choco install steam -y
 choco install uplay -y
 choco install epicgameslauncher -y
+
 choco install geforce-experience -y
 
 # Install non-Chocolatey software
@@ -87,3 +88,6 @@ wsl --set-default-version 2
 # Set up PowerShell
 # - Clone psaliases
 # - Copy profile
+
+# Show hidden files
+# Show file extensions
