@@ -12,14 +12,10 @@ refreshenv
 # Install applications (general)
 choco install googlechrome -y
 choco install firefox -y
-choco install brave -y
 choco install adobereader -y
 choco install 7zip -y
 choco install vlc -y
 choco install 1password -y
-choco install lightshot -y
-choco install screentogif -y
-choco install slack -y
 choco install spotify -y
 
 # Install applications (development)
@@ -34,10 +30,11 @@ choco install git -y
 choco install poshgit -y
 choco install inkscape -y
 choco install visioviewer -y
-choco install camunda-modeler -y
 choco install microsoft-windows-terminal -y
-choco install dbeaver -y
 choco install dotnetcore-sdk -y
+
+choco install dbeaver -y
+choco install camunda-modeler -y
 
 # Install applications (others)
 choco install google-backup-and-sync -y
