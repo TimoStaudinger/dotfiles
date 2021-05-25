@@ -30,7 +30,6 @@ choco install git -y
 choco install poshgit -y
 choco install inkscape -y
 choco install visioviewer -y
-choco install microsoft-windows-terminal -y
 choco install dotnetcore-sdk -y
 
 choco install dbeaver -y
@@ -47,8 +46,13 @@ choco install parsec -y
 
 choco install geforce-experience -y
 
+# Install from Windows Store
+# - TranslucentTB
+# - Windows Terminal
+
 # Install non-Chocolatey software
 # - Adobe Creative Cloud
+# - Snagit
 
 # Install fonts
 # - Dank Mono (https://dank.sh/releases/)
