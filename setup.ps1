@@ -43,6 +43,7 @@ choco install discord -y
 choco install steam -y
 choco install uplay -y
 choco install epicgameslauncher -y
+choco install parsec -y
 
 choco install geforce-experience -y
 
