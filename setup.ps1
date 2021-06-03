@@ -63,6 +63,10 @@ winget install -e --id Nvidia.GeForceExperience
 
 refreshenv
 
+# Configure Windows Terminal
+# - copy ./ms-terminal-bg.jpg to C:/
+# - copy contents of ./ms-terminal-settings.json into Terminal settings file
+
 # Set global Git config
 # - Copy .gitconfig to ~/
 # - Maintain email address
@@ -70,9 +74,8 @@ git config --global user.email "foo@bar.com"
 git config --global user.name "Timo Staudinger"
 New-Item C:\git -type directory
 
-# TODO: Copy yarn & npm config
-
-refreshenv
+# Yarn and npm setup [optional]
+# - copy yarn & npm config to ~/
 
 # Install Python packages
 pip install --upgrade pip setuptools
@@ -85,8 +88,11 @@ pip install --upgrade httpie
 # - Copy profile
 
 # Configure Windows
-# - Show hidden files
-# - Show file extensions
+# - show hidden files
+# - show file extensions
+# - TranslucentTB: each setting to 'fluid'
+
+# Sign in to 1password
 
 # Activate Windows Subsystem for Linux
 # ====================================
