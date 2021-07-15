@@ -13,7 +13,6 @@ winget install -e --id Adobe.AdobeAcrobatReaderDC
 winget install -e --id 7zip.7zip
 winget install -e --id VideoLAN.VLC
 winget install -e --id Spotify.Spotify
-winget install -e --id TranslucentTB.TranslucentTB
 winget install -e --id TechSmith.Snagit
 winget install -e --id SlackTechnologies.Slack
 
