@@ -3,6 +3,8 @@
 # - HTTPS_PROXY
 # - NO_PROXY
 
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
+
 # Install applications: general
 # =============================
 winget install -e --id Microsoft.WindowsTerminal
@@ -37,9 +39,9 @@ winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Notepad++.Notepad++
 winget install -e --id Inkscape.Inkscape
 winget install -e --id dbeaver.dbeaver
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 
 # Install manually
-# - poshgit
 # - Adobe creative cloud
 
 # [optional]
