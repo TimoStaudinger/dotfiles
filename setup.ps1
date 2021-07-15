@@ -5,7 +5,6 @@
 
 # Install applications: general
 # =============================
-winget install -e --id Microsoft.PowerToys
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id AgileBits.1Password
 winget install -e --id Google.Chrome
