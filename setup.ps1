@@ -59,6 +59,8 @@ winget install -e --id EpicGames.EpicGamesLauncher
 # [optional]
 winget install -e --id Nvidia.GeForceExperience
 winget install -e --id Nvidia.Broadcast
+# Install manually
+# - Nvidia Control Panel
 
 # Configuration
 # =============
