@@ -11,7 +11,8 @@
     1. App Installer
 1. Set Insider Preview level
 1. Update Windows
-1. Fix look and feel:
+1. Install apps. See [setup.ps1](setup.ps1)
+3. Fix look and feel:
     1. Hide Cortana, task, and search controls
     2. Hide Recycle Bin
     3. Set display refresh rate and orientation
