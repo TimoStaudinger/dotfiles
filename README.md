@@ -14,8 +14,14 @@
 6. Update Microsoft Store apps
 7. Install apps. See [setup.ps1](setup.ps1)
 8. Disable OneDrive autostart
-9. Fix look and feel:
+9. Update drivers:
+    1. GeForce Experience
+    2. ASUS Grid
+10. Fix look and feel:
     1. Hide Cortana, task, and search controls
     2. Hide Recycle Bin desktop icon
     3. Unpin task bar and start menu items
     4. Set display refresh rate and orientation
+11. Set up Nvidia Broadcast
+    1. Configure the app
+    2. Set as default input
