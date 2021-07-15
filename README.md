@@ -4,16 +4,18 @@
 ## Setting up a new Windows machine
 
 1. Sign in w/ my main account
-1. Set up Microsoft Edge
+2. Set up Microsoft Edge
     1. Sign in
-    1. Set search engine to Google
-1. Install via Microsoft Store:
+    2. Set search engine to Google
+3. Install via Microsoft Store:
     1. App Installer
-1. Set Insider Preview level
-1. Update Windows
-1. Install apps. See [setup.ps1](setup.ps1)
-1. Disable OneDrive autostart
-1. Fix look and feel:
+4. Set Insider Preview level
+5. Update Windows
+6. Update Microsoft Store apps
+7. Install apps. See [setup.ps1](setup.ps1)
+8. Disable OneDrive autostart
+9. Fix look and feel:
     1. Hide Cortana, task, and search controls
-    1. Hide Recycle Bin
-    1. Set display refresh rate and orientation
+    2. Hide Recycle Bin desktop icon
+    3. Unpin task bar and start menu items
+    4. Set display refresh rate and orientation
