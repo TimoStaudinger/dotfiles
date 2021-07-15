@@ -29,9 +29,9 @@ winget install -e --id Microsoft.Teams
 # Install applications: creative
 # ==============================
 winget install -e --id Microsoft.VisualStudio.2019.BuildTools
-winget install -e --id AdoptOpenJDK.OpenJDK
-winget install -e --id Python.Python
-winget install -e --id OpenJS.Nodejs
+winget install -e --id AdoptOpenJDK.OpenJDK.16
+winget install -e --id Python.Python.3
+winget install -e --id OpenJS.NodeJS
 winget install -e --id Yarn.Yarn
 winget install -e --id Git.Git
 winget install -e --id Microsoft.VisualStudioCode
