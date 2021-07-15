@@ -25,6 +25,7 @@ winget install -e --id SlackTechnologies.Slack
 winget install -e --id Google.BackupAndSync
 winget install -e --id NordVPN.NordVPN
 winget install -e --id ParsecCloudInc.Parsec
+winget install -e --id Microsoft.Teams
 
 # Install applications: creative
 # ==============================
