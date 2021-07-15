@@ -13,3 +13,6 @@
     1. Hide Cortana, task, and search controls
     2. Hide Recycle Bin
     3. Set display refresh rate and orientation
+6. Set up Microsoft Edge
+    1. Sign in
+    2. Set search engine to Google
