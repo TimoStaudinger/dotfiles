@@ -39,6 +39,7 @@ winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Notepad++.Notepad++
 winget install -e --id Inkscape.Inkscape
 winget install -e --id dbeaver.dbeaver
+winget install -e --id Docker.DockerDesktop
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 
 # Install manually
