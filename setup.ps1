@@ -40,6 +40,7 @@ winget install -e --id Notepad++.Notepad++
 winget install -e --id Inkscape.Inkscape
 winget install -e --id dbeaver.dbeaver
 winget install -e --id Docker.DockerDesktop
+winget install -e --id BlenderFoundation.Blender
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 
 # Install manually
