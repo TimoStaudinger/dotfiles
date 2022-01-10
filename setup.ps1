@@ -17,6 +17,7 @@ winget install -e --id VideoLAN.VLC
 winget install -e --id Spotify.Spotify
 winget install -e --id TechSmith.Snagit
 winget install -e --id SlackTechnologies.Slack
+winget install -e --id Doist.Todoist
 
 # Install fonts
 # - Dank Mono (https://dank.sh/releases/)
